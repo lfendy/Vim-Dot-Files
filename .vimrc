@@ -23,6 +23,10 @@ set ruler
 set directory=/tmp
 set laststatus=2
 set cursorline
+set expandtab
+set sw=2
+set tabstop=2
+set softtabstop=2
 
 set statusline=
 set statusline+=%<\                       " cut at start
@@ -63,3 +67,14 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>fb :FufBuffer<CR>
 map <silent> <LocalLeader>fl :FufLine<CR>
+
+nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
+nnoremap <silent> <LocalLeader><space> :noh<CR>
+nnoremap <silent> <tab> %<CR>
+vnoremap <silent> <tab> %<CR>
+nnoremap <F1> <ESC>
+inoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+nnoremap ; :
+
+
