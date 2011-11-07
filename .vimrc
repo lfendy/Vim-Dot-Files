@@ -70,11 +70,9 @@ map <silent> <LocalLeader>fl :FufLine<CR>
 
 nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
 nnoremap <silent> <LocalLeader><space> :noh<CR>
-nnoremap <silent> <tab> %<CR>
-vnoremap <silent> <tab> %<CR>
 nnoremap <F1> <ESC>
 inoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 nnoremap ; :
 
-
+command! Tidy execute "0,$! tidy -i -xml -q"
