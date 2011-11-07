@@ -10,6 +10,3 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = git://github.com/lfendy/vim-coffee-script.git
-[submodule "bundle/Rainbow-Parenthsis-Bundle"]
-	path = bundle/Rainbow-Parenthsis-Bundle
-	url = git@github.com:lfendy/Rainbow-Parenthsis-Bundle.git
