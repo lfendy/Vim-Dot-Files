@@ -1,12 +1,15 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git://github.com/lfendy/vim-fugitive.git
+	url = git@github.com:lfendy/vim-fugitive.git
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
-	url = git://github.com/lfendy/vim-pathogen.git
+	url = git@github.com:lfendy/vim-pathogen.git
 [submodule "bundle/command-t"]
 	path = bundle/command-t
-	url = git://github.com/lfendy/command-t.git
+	url = git@github.com:lfendy/command-t.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
-	url = git://github.com/lfendy/vim-coffee-script.git
+	url = git@github.com:lfendy/vim-coffee-script.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = git@github.com:lfendy/vim-rails.git
