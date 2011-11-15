@@ -68,7 +68,18 @@ map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>fb :FufBuffer<CR>
 map <silent> <LocalLeader>fl :FufLine<CR>
 
+function! ToggleRelativeNumber()
+  if &relativenumber
+    set number
+  else
+    set relativenumber
+  endif
+endfunction
+
+nnoremap <leader>rr :call ToggleRelativeNumber()<cr>
 nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
+nnoremap <leader>ss :source $MYVIMRC<cr>
+nnoremap <leader>ee :tabe $MYVIMRC<cr>
 nnoremap <silent> <LocalLeader><space> :noh<CR>
 nnoremap <F1> <ESC>
 inoremap <F1> <ESC>
