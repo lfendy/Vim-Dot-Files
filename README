@@ -1,3 +1,26 @@
-Please copy the .vimrc to your home directory.
+Installation:
+
+* git clone this repo
+
+    git clone https://github.com/lfendy/Vim-Dot-Files.git
+
+* cd to Vim-Dot-Files
+
+* Run install.sh
+
+* Run update_bundles.rb init
+
+* Remove (if any) existing .vimrc and .vim directory
+
+* Link .vimrc file and .vim directory to home directory
+
+    (performed inside Vim-Dot-Files dir)
+    ln -s ./.vimrc ~/.vimrc && ln -s ./ ~/.vim
+
+* Profit!
+
+
+Notes:
+
 to fix the maximise button, please use
 defaults write org.vim.MacVim MMZoomBoth 1
