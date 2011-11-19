@@ -19,3 +19,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git@github.com:lfendy/nerdtree.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = git@github.com:lfendy/snipmate.vim.git
