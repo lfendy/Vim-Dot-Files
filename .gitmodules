@@ -22,3 +22,6 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git@github.com:lfendy/snipmate.vim.git
+[submodule "bundle/conque-term"]
+	path = bundle/conque-term
+	url = git@github.com:lfendy/conque-term.git

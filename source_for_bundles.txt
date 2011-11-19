@@ -6,3 +6,4 @@ vim-pathogen: git://github.com/tpope/vim-pathogen.git
 command-t: git://git.wincent.com/command-t.git
 nerdtree: git://github.com/scrooloose/nerdtree.git
 snipmate: git://github.com/msanders/snipmate.vim.git
+conque-term: git://github.com/rosenfeld/conque-term.git
