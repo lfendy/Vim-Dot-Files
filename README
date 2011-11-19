@@ -8,8 +8,6 @@ Installation:
 
 * Run install.sh
 
-* Run update_bundles.rb init
-
 * Remove (if any) existing .vimrc and .vim directory
 
 * Link .vimrc file and .vim directory to home directory
