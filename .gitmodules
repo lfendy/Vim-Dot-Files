@@ -25,3 +25,6 @@
 [submodule "bundle/conque-term"]
 	path = bundle/conque-term
 	url = git@github.com:lfendy/conque-term.git
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = git@github.com:lfendy/gundo.vim.git
