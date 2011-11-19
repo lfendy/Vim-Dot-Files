@@ -13,7 +13,7 @@ Installation:
 * Link .vimrc file and .vim directory to home directory
 
     (performed inside Vim-Dot-Files dir)
-    ln -s ./.vimrc ~/.vimrc && ln -s ./ ~/.vim
+    ln -s `pwd`/.vimrc ~/.vimrc && ln -s `pwd` ~/.vim
 
 * Profit!
 
