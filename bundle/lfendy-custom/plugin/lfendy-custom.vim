@@ -18,6 +18,8 @@ set expandtab
 set sw=2
 set tabstop=2
 set softtabstop=2
+set undodir=~/.vim/undo
+set undofile
 
 set statusline=
 set statusline+=%<\                       " cut at start
@@ -59,6 +61,7 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>fb :FufBuffer<CR>
 map <silent> <LocalLeader>fl :FufLine<CR>
+map <silent> <LocalLeader>gu :GundoToggle<CR>
 
 function! ToggleRelativeNumber()
   if &relativenumber
@@ -71,7 +74,7 @@ endfunction
 nnoremap <leader>rr :call ToggleRelativeNumber()<cr>
 nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR><C-o>
 nnoremap <leader>ss :source $MYVIMRC<cr>
-nnoremap <leader>ee :tabe $MYVIMRC<cr>
+nnoremap <leader>ee :tabe ~/.vim/bundle/lfendy-custom/plugin/lfendy-custom.vim<cr>
 nnoremap <silent> <LocalLeader><space> :noh<CR>
 nnoremap <F1> <ESC>
 inoremap <F1> <ESC>
