@@ -77,12 +77,15 @@ inoremap <D-t> :tabe<cr>
 nnoremap <leader>y :CommandTFlush<cr>
 nnoremap <leader>rr :call ToggleRelativeNumber()<cr>
 nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR><C-o>
-nnoremap <leader>ss :source $MYVIMRC<cr>
+nnoremap <leader>ss :source ~/.vim/bundle/lfendy-custom/plugin/lfendy-custom.vim<cr>
 nnoremap <leader>ee :tabe ~/.vim/bundle/lfendy-custom/plugin/lfendy-custom.vim<cr>
 nnoremap <silent> <LocalLeader><space> :noh<CR>
 nnoremap <F1> <ESC>
 inoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 nnoremap ; :
+nnoremap <silent> <LocalLeader><cr> :tabe<cr>
+nnoremap <silent> <LocalLeader>[ :tabp<cr>
+nnoremap <silent> <LocalLeader>] :tabn<cr>
 
 command! Tidy execute "0,$! tidy -i -xml -q"
