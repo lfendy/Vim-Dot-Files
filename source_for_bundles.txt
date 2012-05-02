@@ -8,3 +8,4 @@ nerdtree: git://github.com/scrooloose/nerdtree.git
 snipmate: git://github.com/msanders/snipmate.vim.git
 conque-term: git://github.com/rosenfeld/conque-term.git
 gundo: git://github.com/sjl/gundo.vim.git
+vim-scala: git://github.com/derekwyatt/vim-scala.git
