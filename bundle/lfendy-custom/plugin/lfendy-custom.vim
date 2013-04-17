@@ -1,5 +1,5 @@
 set t_Co=256
-colorscheme molokai
+colorscheme anotherdark
 
 set hlsearch
 set nocompatible
