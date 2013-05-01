@@ -91,5 +91,6 @@ nnoremap <silent><S-D-Up> :wincmd k<cr>
 nnoremap <silent><S-D-Down> :wincmd j<cr>
 nnoremap <silent><S-D-Left> :wincmd h<cr>
 nnoremap <silent><S-D-Right> :wincmd l<cr>
+nnoremap <silent><leader>ff :CtrlP<cr>
 
 command! Tidy execute "0,$! tidy -i -xml -q"
