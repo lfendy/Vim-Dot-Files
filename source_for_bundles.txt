@@ -3,9 +3,9 @@ vim-rails: git://github.com/tpope/vim-rails.git
 vim-coffee-script: git://github.com/kchmck/vim-coffee-script.git
 vim-fugitive: git://github.com/tpope/vim-fugitive.git
 vim-pathogen: git://github.com/tpope/vim-pathogen.git
-command-t: git://git.wincent.com/command-t.git
 nerdtree: git://github.com/scrooloose/nerdtree.git
 snipmate: git://github.com/msanders/snipmate.vim.git
 conque-term: git://github.com/rosenfeld/conque-term.git
 gundo: git://github.com/sjl/gundo.vim.git
 vim-scala: git://github.com/derekwyatt/vim-scala.git
+ctrlp: git://github.com/kien/ctrlp.vim.git

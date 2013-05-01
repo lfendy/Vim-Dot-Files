@@ -4,9 +4,6 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git@github.com:lfendy/vim-pathogen.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git@github.com:lfendy/command-t.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = git@github.com:lfendy/vim-coffee-script.git
@@ -31,3 +28,6 @@
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = git@github.com:lfendy/vim-scala.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git@github.com:lfendy/ctrlp.vim.git
